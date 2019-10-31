@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    char nama[20],tempat_lahir[20],tanggal_lahir[20],jenis_kelamin[20],alamat[30];
+    double no_telepon,nim;
+    cout << "===========================================================\n";
+    cout << "=                Nama       : INAR                        =\n";
+    cout << "=                Alamat     : Jatigede                    =\n";
+    cout << "=                Nim        : A2.1900086                  =\n";
+    cout << "=                No_Telepon : 081250965887                =\n";
+    cout << "===========================================================\n";
+    cout << "*                         SOAL NO 3                       *\n";
+    cout << "***********************************************************\n";
+    cout <<endl;
+    cout <<endl;
+    cout << "===========================================================\n"<<endl;
+    cout << "=              Selamat Datang DiProgram C++               = \n"<<endl;
+    cout << "=                         BIODATA                         = \n"<<endl;
+    cout << "=========================================================== \n"<<endl;
+    cout <<endl;
+    cout << " Masukan Nama Anda    :";
+    cin  >> nama ;
+    cout << " Masukan NIM          :";
+    cin  >> nim ;
+    cout << " Masukan Tempa Lahir  :";
+    cin  >> tempat_lahir;
+    cout << " Masukan Tanggal Lahir:";
+    cin  >> tanggal_lahir ;
+    cout << " Masukan Jenis kelamin:";
+    cin  >> jenis_kelamin ;
+    cout << " Masukan Alamat       :";
+    cin  >> alamat;
+    cout << " Masukan Nomer Telepon:";
+    cin  >> no_telepon ;
+    cout << "============================================================\n";
+    cout << "=                          BIODATA                         = n";
+    cout << "============================================================\n";
+    cout << " Nama        :"<<nama;
+    cout <<endl;
+    cout << " NIM          :"<<nim;
+    cout <<endl;
+    cout << " Tempa Lahir  :"<<tempat_lahir;
+    cout <<endl;
+    cout << " Tanggal Lahir:"<<tanggal_lahir;
+    cout <<endl;
+    cout << " Tanggal Lahir:"<<jenis_kelamin;
+    cout <<endl;
+    cout << " Alamat       :"<<alamat;
+    cout <<endl;
+    cout << " Nomer Telepon:"<<no_telepon;
+    cout <<endl;
+    return 0;
+}
